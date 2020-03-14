@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129004540-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129004540-1');
+</script>
+
+	</head>
+<title>Armbrae Student Council</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+.container {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+</style>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px" onload="startTime()">
+	<h2 class= "w3-panel w3-blue w3-round-xlarge w3-hide-large w3-hide-medium w3-center" ><b>Armbrae Student Council</b></h2>
+
+<!-- Sidebar/menu -->
+	<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:200px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="osprey-logo.png" alt="Osprey Logo" style="width:85%;" class="w3-round"><br><br>
+    <h4><b>Armbrae Academy</b></h4>
+    <p class="w3-text-grey">Student Council</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#homepage" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Homepage</a> 
+    	<a href="https://mattc2020.github.io/sandbox/sign-in/" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-plus-square w3-margin-right" style="font-size:18px; padding-left: 2px;"> </i>News</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+		<a href="https://mattc2020.github.io/sandbox/sign-in/" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-plus-square w3-margin-right" style="font-size:18px; padding-left: 2px;"> </i>Calendar<a>
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://www.facebook.com/matthew.croft.ca"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/matthewcroft_/?hl=en"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://imgur.com/a/dS7BpqB"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+    <a href="https://www.pinterest.ca/mcroft4682/"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/MatthewCroft_"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/matthew-croft-b814b6146"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</nav>
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+	<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+  <!--Top of Page-->
+  <div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px margin-left:200px">
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button w3-padding-right" >About</a>
+      <a href="#news" class="w3-bar-item w3-button w3-padding-right">News</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-right">Contact</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- !PAGE CONTENT! -->
+	<div class="w3-main" style="margin-left:200px">
+
+  <!-- Header -->
+	<header id="home">
+    <div>
+	<a href="#"><img src="osprey-logo.png" alt="Armbrae Logo" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="container">
+
+	</div>
+	
+    </div>
+  </header>
+  <div class="w3-container">
+    <div class="w3-section w3-bottombar w3-padding-16">
+    </div>
+    </div>
+
+  
+  <!-- First Photo Grid-->
+
+  	<div class="w3-row-padding">
+  	<div class="w3-center w3-bold">
+      <h1><b><u>Featured News</u></b></h1>
+      </div>
+    <div class="w3-third w3-container w3-margin-bottom" >
+      
+      <a href="https://armbraestudentcouncil.github.io/news/new_website/"><img src="webpage.png" alt="Armbrae Academy" style="width:100%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0" class="w3-hover-opacity" title="Visit Armbrae's Webpage"></a>
+      <div class="w3-container w3-white">
+        <p><b>Student Council Website Released</b></p>
+        <p>On Friday, March 13th the Armbrae Student Council webpage... *Click to read full story*</p>
+      </div>
+    </div>
+    
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="https://armbraestudentcouncil.github.io/news/armbrae_potential_closure/"><img src="closure.png" title="Canada Games Profile" alt="Image from Canada Games" style="width:100%; height:40%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Armbrae Imposes Travel Restrictions</b></p>
+        <p>Armbrae has canceled multiple class trips, and has imposed strict self isolation practices. *See article for more details*<p>
+      </div>
+    </div>
+    
+    <div class="w3-third w3-container">
+      <img src="keji.JPG" alt="Image of Keji National Park"  style="width:100%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Duke of Edinburgh - Silver</b></p>
+        <p>In October of 2018 myself and fellow classmates went on a two night backpacking trip through Kejimkujik National Park. This was the qualifying expedition for the Duke of Edinburgh Silver. </p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+	<div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="https://www.halifax.ca/sites/default/files/documents/city-hall/districts-councillors/3237%20Mancini%20Final%20FINAL.PDF"><img src="awards.JPG" title="Toni Mancini News Letter" alt="My Awards" style="width:100%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>HRM Citizenship Award</b></p>
+        <p>In 2017 I was awarded the HRM Citizenship Award. This award is given to one grade 9 student who demonstrates good citizenship in their community. Here I am pictured with Mayor Mike Savage and my local representitive Toni Mancini.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+       <a href="https://youtu.be/cxQo0To1-Go"><img src="travel.JPG" title="Watch Video" alt="Travel image" style="width:100%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Travel</b></p>
+        <p>I love to travel the world. This past summer I had the opportunity to travel to the Rockys in Alberta. Click the image to watch a short video from the trip.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="family.JPG" alt="Family" style="width:100%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Family</b></p>
+        <p>I love spending time with family. Here is a photo from 2005, with myself,and my Mom.</p>
+      </div>
+    </div>
+  </div>
+
+
+	<div class="w3-container">
+    <div class="w3-section w3-bottombar w3-padding-16">
+    </div>
+    </div>
+
+
+  <!-- Images of Me/ About Section -->
+	<div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="running_image.JPG" alt="Me" style="width:100%; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0" title="2018 EPIC race weekend">
+    </div>
+    <div class="w3-col m6">
+      <img src="swimming_image.JPG" alt="Me" style="width:100%; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0" title="Swimming at the 2017 Canada Games">
+    </div>
+  </div>
+
+	<div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p>Hey! I'm Matthew Croft and I am a high school student in Halifax, NS. I have a passion for swimming and swim for the Dartmouth Crusaders Swim Club. I love to take on leadership roles, I am the treasurer on my School's student council. I also enjoy to volunteer in the HRM community.</p>
+    <hr>
+	
+	     <div class="w3-container">
+    <div class="w3-section w3-bottombar w3-padding-9">
+    </div>
+    </div>
+</div>    
+ 
+	  
+<!-- Progress bars / Skills -->
+    <div class="w3-container w3-padding-right w3-padding-left" style="margin-bottom:32px">
+    <h4><strong>Class Averages</strong></h4>
+	  <p>Physics</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:94%">94%</div>
+    </div>
+    <p>English</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:99%">99%</div>
+    </div>
+    <p>Computer Scicence</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:98%">98%</div>
+    </div>
+    <p>
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+       <a href="example_resume.pdf" download="example_resume">
+		   <i class="fa fa-download w3-margin-right"></i>Download Resume
+	   </a>
+      </button>
+	   <p>(For Privacy reasons, personal resume only avalible upon request)</p>
+    </p>
+    <hr>
+	     <div class="w3-container">
+    <div class="w3-section w3-bottombar w3-padding-16">
+    </div>
+	</div>
+    </div>
+    
+<!-- Project Tables -->
+
+  <div class="w3-row-padding">
+	<!--Scad project card-->	
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="coin_trap.png" alt="Coin Trap" style="width:100%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0" title="Click to see more!" onclick="document.getElementById('modalScad').style.display='block'" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>3D Modeling Projects</b></p>
+        <p>This term we have worked on various 3D modeling projects. Click on the image above to take a look!</p>
+      </div>
+	  <!--Scad modal-->	
+	  <div id="modalScad" class="w3-modal">
+		<div class="w3-modal-content w3-light-grey w3-card-4">
+		  <header class="w3-container" > 
+			<span onclick="document.getElementById('modalScad').style.display='none'" 
+		  class="w3-button w3-display-topright">&times;</span>
+			<h2>3D Modeling on OpenSCAD</h2>
+		  </header>
+		  <div class="w3-container">
+			<div class="w3-row">
+			  <div class="w3-col s8 w3-white w3-padding">
+			  <p>Here we learned how to design and create various objects and tools to be printed into real objects. </p>
+			  <p>The slideshow on the right will show you some of the projects we have done this term. </p>
+			</div>
+			  <div class="w3-col s4  w3-center w3-container">
+<div class="w3-content" style="max-width:800px">
+  <img class="mySlides_1" src="family.JPG" style="width:100%">
+  <img class="mySlides_1" src="keji.JPG" style="width:100%">
+  <img class="mySlides_1" src="coin_trap.png" style="width:100%">
+</div>
+
+<div class="w3-center">
+  <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+			  </div>
+			</div>
+		  </div>
+		  <footer class="w3-container ">
+			<p> </p>
+		  </footer>
+		</div>
+	  </div>
+</div>
+</div>
+</div>
+	
+	
+	<!--Vint Cerf project card-->	
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="https://mattc2020.github.io/tribute/"><img src="tribute_page.png" title="Visit Webpage" alt="Image from Canada Games" style="width:100%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Tribute to Vint Cerf</b></p>
+        <p>This is my first website built this year. It is a tribute to the founder of the internet, Vint Cerf.</p>
+      </div>
+    </div>
+    
+	<!--Photography project card-->	
+    <div class="w3-third w3-container">
+      <img src="keji.JPG" alt="Image of Keji National Park"  style="width:100%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0" class="w3-hover-opacity" title="Link Unavalibe">
+      <div class="w3-container w3-white">
+        <p><b>Photography</b></p>
+        <p>Click the image above to view a collection of my photography. </p>
+      </div>
+    </div>
+
+
+	
+    </div>
+    
+    
+<!-- Info Tables -->
+	<div class="w3-row-padding w3-padding-16 w3-container" style="margin:0 -16px">
+        <h4 style=" w3-padding-left"><strong>More about me.</strong></h4>
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Education</li>
+          <li class="w3-padding-16">Honours With Distinction (90%+ average) 2014-2018  </li>
+          <li class="w3-padding-16">Fountain Academy (2012-2018)</li>
+          <li class="w3-padding-16">Armbrae Academy (2018-present)</li>
+          <li class="w3-padding-16">Student Council Treasurer</li>
+          <li class="w3-padding-16">
+            <h2>Armbrae Academy</h2>
+            <span class="w3-opacity">Class of 2020</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-teal w3-padding-large w3-hover-black">Learn More</button>
+				<div id="id01" class="w3-modal">
+				<div class="w3-modal-content">
+				<div class="w3-container">
+				<span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+					<p><strong>Armbrae Academy</strong></p>
+						<p>I currently attend Armbrae Academy in Halifax, NS. I am enrolled in grade 11, and will be graduating in the class of 2020. To learn more about the school click the link below.</p>
+						<a href="https://www.armbrae.ns.ca"> Armbrae Academy</a>
+			</div>
+			</div>
+			</div>
+		  </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-teal w3-xlarge w3-padding-32">Awards</li>
+          <li class="w3-padding-16">Club Merit Award- Dartmouth Crusaders Swim Club (2017)</li>
+          <li class="w3-padding-16">Sacred Heart Scholar $9,000 Award Winner</li>
+          <li class="w3-padding-16">Class Spirit Award-  For positive contribution to school life (2017)</li>
+          <li class="w3-padding-16">Bronze Duke of Edinburgh Award</li>
+          <li class="w3-padding-16">
+            <h2>Halifax Regional Municipality Citizenship Award</h2>
+            <span class="w3-opacity">2017</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-teal w3-padding-large w3-hover-black">Learn More</button>
+					<div id="id02" class="w3-modal">
+					<div class="w3-modal-content">
+					<div class="w3-container">
+					<span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+						<p><strong>To learn more about my awards, please send me an email. </strong></p>
+						<p>Thanks.</p>
+      </div>
+    </div>
+  </div>
+		  </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Swimming</li>
+          <li class="w3-padding-16">Canada Games Athlete</li>
+          <li class="w3-padding-16">Swim Instructor Certification</li>
+          <li class="w3-padding-16">Bronze Cross Certification</li>
+          <li class="w3-padding-16">Summer Part-Time Swim Coach</li>
+          <li class="w3-padding-16">
+            <h2>Dartmouth Crusaders Swim Club</h2>
+            <span class="w3-opacity">2011-present</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button onclick="document.getElementById('id03').style.display='block'" class="w3-button w3-teal w3-padding-large w3-hover-black">Learn More</button>
+				<div id="id03" class="w3-modal">
+				<div class="w3-modal-content">
+				<div class="w3-container">
+				<span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+					<p>To find out more about swimming visit the link below.</p>
+					<a href="https://www.swimming.ca/en/"> Swim Canada</a>
+			</div>
+		   </div>
+		  </div>
+		 </li>
+        </ul>
+      </div>
+    </div>
+  
+<!-- Contact Section -->
+	<div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>mcroft@eastlink.ca</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p onclick="document.getElementById('id04').style.display='block'">Halifax, NS</p>
+	      <div id="id04" class="w3-modal">
+				<div class="w3-modal-content">
+				<div class="w3-container">
+				<span onclick="document.getElementById('id04').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+					<h1 style="color: black;">Below is a map of Halifax</h1>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90830.26104085213!2d-63.692014043186276!3d44.64924569700037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a211407dbfac1%3A0x666be3a6438b2ddc!2sHalifax%2C+NS!5e0!3m2!1sen!2sca!4v1549637997920" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		   </div>
+		  </div>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Phone number avalible on request</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="mailto:mcroft@eastlink.ca" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message (Now Avalible)</button>
+    </form>
+  </div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>Thanks for Visiting!</h3>
+      <p>If you have any questions please send me and email, or feel free to follow me on my social media. </p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="running_image.JPG" alt="Swimming Image" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Epic Canadian</span><br>
+          <span>Running</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="swimming_image.JPG" alt="Running Image" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Canada Games</span><br>
+          <span>2017</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>Interests</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Football</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Science</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Halifax</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Food</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Engeneering</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">School</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Friends</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Kindness</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Swimming</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Gaming</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Designed by <a href="https://mattc2020.github.io/" title="Matthew's Website" target="_blank" class="w3-hover-opacity">Matthew Croft</a></div>
+	<div style="text-align: center; background-color:black">
+	<div class="w3-tag w3-white w3-xlarge w3-margin-bottom">
+	<a href="https://www.facebook.com/matthew.croft.ca"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/matthewcroft_/?hl=en"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://imgur.com/a/dS7BpqB"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+    <a href="https://www.pinterest.ca/mcroft4682/"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/MatthewCroft_"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/matthew-croft-b814b6146"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+	</div>
+	</div>
+
+<!-- End page content -->
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+//Slideshow Functions
+var myIndex = 0;
+carousel();
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 10000); // Change image every 10 seconds
+}
+
+//Clock Function
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+
+//Slides!
+
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides_1");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-red", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-red";
+}
+
+//Get the modal
+	var modals=['modalScad','id01','id02','id03','id04'];
+//When the user clicks anywhere outside	of the modal, close it
+window.onclick = function(event) {
+	for (var i=0; i< modals.length; i++) {
+		var modal = document.getElementById(modals[i]);
+		if (event.target == modal) {
+		modal.style.display = "none";	
+		}
+	    }
+        }
+</script>
+
+</body>
+</html>
